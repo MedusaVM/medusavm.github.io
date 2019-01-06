@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("galaxy.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.6); 
+}
+
+.btn{
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-lg{
+	padding: 1rem 2rem
+}
